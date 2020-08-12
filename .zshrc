@@ -7,6 +7,9 @@ ZSH_THEME="robbyrussell"
 # plugins
 plugins=(
     deno
+    node
+    npm
+    yarn
     rust
     cargo
     scala
@@ -22,6 +25,7 @@ plugins=(
     zsh-autosuggestions
     git-open
     autojump
+    zsh-completions
 )
 
 source $ZSH/oh-my-zsh.sh
