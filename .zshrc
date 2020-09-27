@@ -25,7 +25,6 @@ plugins=(
     zsh-autosuggestions
     git-open
     autojump
-    zsh-completions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -51,4 +50,6 @@ export GOPATH="/Users/qgaye/.go"
 export PATH=$PATH:$GOPATH/bin
 export GO11MODULE=on
 export GOPROXY="https://goproxy.io,direct"
+
+alias tree="exa --tree"
 
