@@ -6,14 +6,11 @@ ZSH_THEME="robbyrussell"
 
 # plugins
 plugins=(
-    deno
     node
     npm
     yarn
     rust
     cargo
-    scala
-    sbt
     golang
     brew
     docker
@@ -23,14 +20,12 @@ plugins=(
     last-working-dir
     zsh-syntax-highlighting
     zsh-autosuggestions
-    git-open
     autojump
+    # deno
+    # git-open
 )
 
 source $ZSH/oh-my-zsh.sh
-
-alias cp="cp -i"
-alias cat="bat"
 
 # autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
@@ -45,11 +40,15 @@ alias unproxy="unset https_proxy; unset http_proxy; unset all_proxy; echo proxy 
 # homebrew python instead system python
 export PATH=/usr/local/opt/python/libexec/bin:$PATH
 
+# java
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
+
 # go 
 export GOPATH="/Users/qgaye/.go"
 export PATH=$PATH:$GOPATH/bin
 export GO11MODULE=on
 export GOPROXY="https://goproxy.io,direct"
 
-alias tree="exa --tree"
+alias cp="cp -i"
+alias uuid=uuidgen
 
