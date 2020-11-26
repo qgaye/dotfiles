@@ -6,9 +6,9 @@ ZSH_THEME="robbyrussell"
 
 # plugins
 plugins=(
+    mvn
     node
     npm
-    yarn
     rust
     cargo
     golang
@@ -49,6 +49,7 @@ export PATH=$PATH:$GOPATH/bin
 export GO11MODULE=on
 export GOPROXY="https://goproxy.io,direct"
 
+alias s=screenfetch
 alias cp="cp -i"
 alias uuid=uuidgen
 
