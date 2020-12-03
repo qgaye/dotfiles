@@ -1,9 +1,14 @@
 # qgaye's dotfiles
 
 ```txt
-.zshrc
-.vimrc
-.gitconfig
-.ssh/config
-.myclirc
+zsh
+vim
+neovim
+iterm2
+mycli
+git config
+brew 
+ssh config
+slowquitapp
 ```
+
