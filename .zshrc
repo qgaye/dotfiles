@@ -21,9 +21,16 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
     autojump
-    # deno
     # git-open
 )
+
+# zsh completions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 source $ZSH/oh-my-zsh.sh
 
@@ -49,6 +56,19 @@ export PATH=$PATH:$GOPATH/bin
 export GO11MODULE=on
 export GOPROXY="https://goproxy.io,direct"
 
+# ffmpeg
+export PATH=$PATH:~/Tool/ffmpeg
+
+# bat theme
+export BAT_THEME="Nord"
+
+alias ls=exa
+alias l=exa
+alias ll="exa -alg --git --time-style long-iso"
+alias la="exa -abghHliS --git --time-style long-iso"
+alias tree="exa --tree"
+alias cat="bat --style=\"changes,numbers\""
+alias h=hstr
 alias s=screenfetch
 alias cp="cp -i"
 alias uuid=uuidgen
