@@ -7,6 +7,7 @@ ZSH_THEME="robbyrussell"
 # plugins
 plugins=(
     mvn
+    gradle
     node
     npm
     rust

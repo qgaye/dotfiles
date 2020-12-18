@@ -9,6 +9,8 @@ mycli
 git config
 brew 
 ssh config
-slowquitapp
+slowquitapps
+bettertouchtool
+mosaic
 ```
 
