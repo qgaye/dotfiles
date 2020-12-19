@@ -18,3 +18,5 @@
 [difftool "icdiff"]
     cmd = icdiff \"$LOCAL\" \"$REMOTE\"
 
+[commit]
+	template = /Users/qgaye/.stCommitMsg

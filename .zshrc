@@ -74,3 +74,5 @@ alias s=screenfetch
 alias cp="cp -i"
 alias uuid=uuidgen
 
+alias cfr="java -jar ~/Tool/cfr.jar"
+

@@ -14,3 +14,7 @@ bettertouchtool
 mosaic
 ```
 
+```bash
+exa --oneline /Applications > Apps.txt
+```
+

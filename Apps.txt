@@ -1,0 +1,38 @@
+Alfred 4.app
+BaiduNetdisk_mac.app
+BetterTouchTool.app
+Caffeinated.app
+ClashX.app
+Dash.app
+Docker.app
+Downie 4.app
+Firefox.app
+Glance.app
+Google Chrome.app
+IINA.app
+iShot.app
+iTerm.app
+JetBrains Toolbox.app
+Keka.app
+Microsoft Excel.app
+Microsoft PowerPoint.app
+Microsoft Remote Desktop Beta.app
+Microsoft Word.app
+Mosaic.app
+NeteaseMusic.app
+OpenMTP.app
+Paste.app
+PDF Viewer.app
+Postman.app
+QQ.app
+QQMusic.app
+Safari.app
+Simple Recorder.app
+SlowQuitApps.app
+Spark.app
+Telegram.app
+Tencent Lemon.app
+Typora.app
+Visual Studio Code.app
+WeChat.app
+网易有道词典.app
