@@ -11,8 +11,10 @@ brew
 ssh config
 slowquitapps
 bettertouchtool
-mosaic
+.dir_colors          # Nord dir_colors 
 ```
+
+## Generate App.txt
 
 ```bash
 exa --oneline /Applications > Apps.txt

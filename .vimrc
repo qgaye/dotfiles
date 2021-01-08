@@ -103,6 +103,10 @@ Plug 'sjl/vitality.vim'
 " vim初始化界面
 Plug 'mhinz/vim-startify'
 
+" fzf
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 " 设置nord配色
