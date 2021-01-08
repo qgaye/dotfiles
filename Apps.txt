@@ -3,7 +3,6 @@ BaiduNetdisk_mac.app
 BetterTouchTool.app
 Caffeinated.app
 ClashX.app
-Dash.app
 Docker.app
 Downie 4.app
 Firefox.app
@@ -14,12 +13,14 @@ iShot.app
 iTerm.app
 JetBrains Toolbox.app
 Keka.app
+Magnet.app
 Microsoft Excel.app
 Microsoft PowerPoint.app
-Microsoft Remote Desktop Beta.app
+Microsoft Remote Desktop.app
+Microsoft To Do.app
 Microsoft Word.app
-Mosaic.app
 NeteaseMusic.app
+OneDrive.app
 OpenMTP.app
 Paste.app
 PDF Viewer.app
@@ -29,7 +30,6 @@ QQMusic.app
 Safari.app
 Simple Recorder.app
 SlowQuitApps.app
-Spark.app
 Telegram.app
 Tencent Lemon.app
 Typora.app

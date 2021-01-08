@@ -14,6 +14,12 @@ bettertouchtool
 .dir_colors          # Nord dir_colors 
 ```
 
+## Generate Brewfile
+
+```bash
+brew bundle dump --force
+```
+
 ## Generate App.txt
 
 ```bash
