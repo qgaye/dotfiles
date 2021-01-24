@@ -16,7 +16,6 @@ plugins=(
     brew
     docker
     docker-compose
-    sudo
     iterm2
     last-working-dir
     zsh-syntax-highlighting
@@ -34,6 +33,19 @@ if type brew &>/dev/null; then
 fi
 
 source $ZSH/oh-my-zsh.sh
+
+# use vim mode
+bindkey -v
+
+function zle-keymap-select {
+	if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
+		echo -ne '\e[1 q'
+	elif [[ ${KEYMAP} == main ]] || [[ ${KEYMAP} == viins ]] || [[ ${KEYMAP} = '' ]] || [[ $1 = 'beam' ]]; then
+		echo -ne '\e[5 q'
+  fi
+}
+zle -N zle-keymap-select
+echo -ne '\e[5 q'
 
 # autojump
 [[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
@@ -57,6 +69,9 @@ export PATH=$PATH:$GOPATH/bin
 export GO11MODULE=on
 export GOPROXY="https://goproxy.io,direct"
 
+# pipx
+export PATH=$PATH:~/.local/bin
+
 # ffmpeg
 export PATH=$PATH:~/Tool/ffmpeg
 
@@ -75,13 +90,16 @@ export LS_COLORS="no=00:rs=0:fi=00:di=01;34:ln=36:mh=04;36:pi=04;01;36:so=04;33:
 # bat theme
 export BAT_THEME="Nord"
 
+# hstr config
+export HSTR_CONFIG=hicolor,prompt-bottom,hide-basic-help
+
 alias ls="exa"
 alias l="exa"
 alias ll="exa -alg --git --time-style long-iso"
 alias la="exa -abghHliS --git --time-style long-iso"
 alias tree="exa --tree"
 alias cat="bat --style=\"changes,numbers\""
-alias grep="rg"
+alias grep="rg -i"
 alias find="fd --type f --hidden --no-ignore --exclude={.git,.idea,.vscode,node_modules}"
 alias h="hstr"
 alias s="screenfetch"

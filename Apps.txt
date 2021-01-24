@@ -5,8 +5,8 @@ Caffeinated.app
 ClashX.app
 Docker.app
 Downie 4.app
+Eudb_en_free.app
 Firefox.app
-Glance.app
 Google Chrome.app
 IINA.app
 iShot.app
@@ -15,6 +15,7 @@ JetBrains Toolbox.app
 Keka.app
 Magnet.app
 Microsoft Excel.app
+Microsoft Outlook.app
 Microsoft PowerPoint.app
 Microsoft Remote Desktop.app
 Microsoft To Do.app
@@ -35,4 +36,3 @@ Tencent Lemon.app
 Typora.app
 Visual Studio Code.app
 WeChat.app
-网易有道词典.app
