@@ -16,6 +16,6 @@
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     type = cat-file -t
     dump = cat-file -p
-    fr = "!git fetch $1 $2 && git rebase $1/$2"
+    fr = "!f() { git fetch $1 $2 && git rebase $1/$2; }; f"
 [commit]
 	template = /Users/qgaye/.stCommitMsg
