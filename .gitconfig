@@ -5,18 +5,16 @@
 	quotepath = false
 	excludesfile = /Users/qgaye/.gitignore_global
 	autocrlf = false
+	pager = diff-so-fancy | less --tabs=4 -RFX
 [alias]
     st = status
     co = checkout
     ci = commit
     br = branch
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
-[diff]
-    tool = vimdiff
-[difftool]
-    prompt = false
-[difftool "icdiff"]
-    cmd = icdiff \"$LOCAL\" \"$REMOTE\"
-
+    type = cat-file -t
+    dump = cat-file -p
+    ps = push origin
+    fr = "!_f() { git fetch origin $1 & git rebase origin/$1; }; _f"
 [commit]
 	template = /Users/qgaye/.stCommitMsg
