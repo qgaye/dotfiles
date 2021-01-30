@@ -18,7 +18,6 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
     autojump
-    # git-open
 )
 
 # zsh completions
