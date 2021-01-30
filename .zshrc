@@ -7,11 +7,8 @@ ZSH_THEME="robbyrussell"
 # plugins
 plugins=(
     mvn
-    gradle
     node
     npm
-    rust
-    cargo
     golang
     brew
     docker
@@ -81,7 +78,6 @@ export FZF_DEFAULT_COMMAND="fd --type f --hidden --no-ignore --exclude={.git,.id
 export FZF_DEFAULT_OPTS="--height 40% --layout=reverse --preview \"bat --style=changes,numbers --color=always --line-range :500 {}\""
 export FZF_COMPLETION_TRIGGER='fzf'
 
-
 # Nord .dir_colors [https://github.com/arcticicestudio/nord-dircolors/blob/develop/src/dir_colors]
 # use dircolors which install by [brew install coreutils] to convert .dir_colors File to LS_COLORS variable
 export CLICOLOE=1
@@ -93,6 +89,7 @@ export BAT_THEME="Nord"
 # hstr config
 export HSTR_CONFIG=hicolor,prompt-bottom,hide-basic-help
 
+alias g="git"
 alias ls="exa"
 alias l="exa"
 alias ll="exa -alg --git --time-style long-iso"
@@ -107,5 +104,5 @@ alias cp="cp -i"
 alias uuid="uuidgen"
 
 alias cfr="java -jar ~/Tool/cfr.jar"
-
+alias prettier="prettier --write --tab-width 4"
 

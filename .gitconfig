@@ -10,11 +10,12 @@
     st = status
     co = checkout
     ci = commit
+    cia = commit --amend
     br = branch
+    ps = push
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     type = cat-file -t
     dump = cat-file -p
-    ps = push origin
-    fr = "!_f() { git fetch origin $1 & git rebase origin/$1; }; _f"
+    fr = "!git fetch $1 $2 && git rebase $1/$2"
 [commit]
 	template = /Users/qgaye/.stCommitMsg

@@ -1,18 +1,4 @@
-# qgaye's dotfiles
-
-```txt
-zsh
-vim
-neovim
-iterm2
-mycli
-git config
-brew 
-ssh config
-slowquitapps
-bettertouchtool
-.dir_colors          # Nord dir_colors 
-```
+# Dotfiles
 
 ## Generate Brewfile
 
@@ -20,9 +6,9 @@ bettertouchtool
 brew bundle dump --force
 ```
 
-## Generate App.txt
+## Generate app.txt
 
 ```bash
-exa --oneline /Applications > Apps.txt
+exa --oneline /Applications > apps.txt
 ```
 

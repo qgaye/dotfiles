@@ -107,6 +107,10 @@ Plug 'mhinz/vim-startify'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
+" prettier
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+let g:prettier#config#tab_width = 4
+
 call plug#end()
 
 " 设置nord配色

@@ -1,0 +1,9 @@
+which not install via Homebrew
+
+```txt
+npm -> prettier
+npm -> @prettier/plugin-xml
+npm -> prettier-plugin-java
+
+pipx -> iredis
+```
