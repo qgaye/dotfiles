@@ -1,8 +1,6 @@
 [user]
-	name = qgaye
-	email = qgaye0601@outlook.com
-[includeIf "gitdir:~/MT/"]
-    path = ~/MT/.gitconfig
+	name = qiujiyi
+	email = qiujiyi@meituan.com
 [core]
 	quotepath = false
 	excludesfile = ~/.gitignore_global

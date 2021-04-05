@@ -28,7 +28,7 @@ set softtabstop=4
 set nowrap
 
 " 显示状态栏
-set laststatus=2
+set laststatus=1
 " 在状态栏中显示光标所在位置
 set ruler
 
@@ -60,27 +60,7 @@ set updatetime=100
 
 call plug#begin('~/.vim/plugged')
 
-" nord
-Plug 'arcticicestudio/nord-vim'
-
-" git信息
-Plug 'tpope/vim-fugitive'
-
-" 底部状态栏
-Plug 'itchyny/lightline.vim'
-let g:lightline = {
-      \ 'colorscheme': 'nord',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'fugitive#head'
-      \ },
-      \ }
-
-" 顶部tab栏
-Plug 'bagrat/vim-buffet'
+Plug 'blueshirts/darcula'
 
 " 缩进
 Plug 'Yggdroot/indentLine'
@@ -107,14 +87,10 @@ Plug 'mhinz/vim-startify'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf.vim'
 
-" prettier
-Plug 'prettier/vim-prettier', { 'do': 'npm install' }
-let g:prettier#config#tab_width = 4
-
 call plug#end()
 
-" 设置nord配色
-colorscheme nord
+" 设置配色
+colorscheme darcula
 
 " 模式切换时的延迟
 set ttimeout
