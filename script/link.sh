@@ -38,5 +38,8 @@ ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Note ~/Note
 rmdir ~/Project
 ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Project ~/Project
 
-rmdir ~/Code
+rmdir ~/Tool
 ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Tool ~/Tool
+
+rmdir ~/Docker
+ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Docker ~/Docker
