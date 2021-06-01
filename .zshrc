@@ -59,6 +59,9 @@ export PATH=/usr/local/opt/python/libexec/bin:$PATH
 # java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
 
+# scala
+export SCALA_HOME="/usr/local/opt/scala/idea"
+
 # go 
 export GOPATH="/Users/qgaye/.go"
 export PATH=$PATH:$GOPATH/bin
