@@ -17,9 +17,6 @@ ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Dotfiles/.gitignore_glob
 rm ~/MT/.gitconfig
 ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Dotfiles/.gitconfig.mt ~/MT/.gitconfig
 
-rm ~/.ssh/config
-ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Dotfiles/.ssh/config ~/.ssh/config
-
 rm ~/.myclirc
 ln -s ~/Library/Mobile\ Documents/com\~apple\~CloudDocs/Dotfiles/.myclirc ~/.myclirc
 

@@ -3,7 +3,7 @@
 ## Generate Brewfile
 
 ```bash
-brew bundle dump --force
+brew bundle dump --describe --force
 ```
 
 ## Generate app.txt

@@ -15,8 +15,6 @@ plugins=(
     docker-compose
     iterm2
     last-working-dir
-    zsh-syntax-highlighting
-    zsh-autosuggestions
     autojump
 )
 
@@ -98,3 +96,5 @@ alias uuid="uuidgen"
 
 alias cfr="java -jar ~/Tool/cfr.jar"
 
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

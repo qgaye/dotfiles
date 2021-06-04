@@ -1,38 +1,34 @@
 Alfred 4.app
 BaiduNetdisk_mac.app
-BetterTouchTool.app
 Caffeinated.app
 ClashX.app
+DataGrip.app
 Docker.app
-Downie 4.app
-Eudb_en_free.app
-Firefox.app
+Glance.app
+GoLand.app
 Google Chrome.app
 IINA.app
+IntelliJ IDEA.app
 iShot.app
 iTerm.app
-JetBrains Toolbox.app
 Keka.app
 Magnet.app
 Microsoft Excel.app
 Microsoft Outlook.app
 Microsoft PowerPoint.app
-Microsoft Remote Desktop.app
-Microsoft To Do.app
 Microsoft Word.app
 NeteaseMusic.app
 OneDrive.app
-OpenMTP.app
 Paste.app
 PDF Viewer.app
 Postman.app
 QQ.app
-QQMusic.app
 Safari.app
 Simple Recorder.app
 SlowQuitApps.app
-Telegram.app
+Steam.app
 Tencent Lemon.app
-Typora.app
+Utilities
 Visual Studio Code.app
 WeChat.app
+网易有道词典.app
